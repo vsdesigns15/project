@@ -1,0 +1,999 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header scection */
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header .navigation {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+header .navigation .icons {
+    display: none;
+}
+
+header .navigation .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation .links ul {
+    padding: 0 24px 0 0;
+}
+
+header .navigation img {
+    height: 40px;
+}
+
+/* hero section */
+
+.hero {
+    width: 100%;
+    background-color: #d6d6d6;
+    display: flex;
+}
+
+.hero .content-hero {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-items: center;
+}
+
+.hero .content-hero img {
+    width: 60%;
+    height: auto;
+}
+
+.hero .content-hero .text {
+    margin: auto;
+    margin-left: 120px;
+}
+
+.hero .content-hero .text h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 25px;
+}
+
+.hero .content-hero .text p {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.hero .content-hero .text button {
+    text-decoration: none;
+    border: none;
+    height: 50px;
+    width: 380px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    margin-top: 25px;
+    background-color: 1c1c1c;
+    color: white;
+    cursor: pointer;
+}
+
+/* practice section */
+
+.practicing {
+    margin-top: 32px;
+    margin-left: 24px;
+    display: flex;
+}
+
+.practicing .sections .left {
+    width: 51.2%;
+}
+
+.practicing .sections .left img {
+    width: 100%;
+}
+
+.practicing .sections .left h1 {
+    font-size: 42px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.practicing .sections .left p {
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.practicing .sections {
+    display: flex;
+}
+
+.practicing .sections .right {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.practicing .sections .right .date {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.practicing .sections .right .date .text {
+    margin: auto;
+    margin-left: 24px;
+    width: 65%;
+}
+
+.practicing .sections .right .date img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.practicing .sections .right .date .responsive {
+    display: none;
+}
+
+.practicing .sections .right .date .text h2 {
+    font-size: 30px;
+}
+
+.practicing .sections .right .date .text p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.practicing .sections .right .date .text span {
+    font-size: 20px;
+}
+
+.practicing .sections .right .our-campus {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.practicing .sections .right .our-campus .text {
+    margin: auto;
+    margin-left: 24px;
+    width: 65%;
+}
+
+.practicing .sections .right .our-campus img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.practicing .sections .right .our-campus .campus-mobile {
+    display: none;
+}
+
+.practicing .sections .right .our-campus .text h2 {
+    font-size: 30px;
+}
+
+.practicing .sections .right .our-campus .text p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.practicing .sections .right .our-campus .text span {
+    font-size: 20px;
+}
+
+.practicing .sections .right .guest {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.practicing .sections .right .guest .text {
+    margin: auto;
+    margin-left: 24px;
+    width: 65%;
+}
+
+.practicing .sections .right .guest img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.practicing .sections .right .guest .guest-mobile {
+    display: none;
+}
+
+.practicing .sections .right .guest .text h2 {
+    font-size: 30px;
+}
+
+.practicing .sections .right .guest .text p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.practicing .sections .right .guest .text span {
+    font-size: 20px;
+}
+
+/* Courses */
+
+.courses {
+    margin-top: 32px;
+    background-color: rgb(216, 216, 216);
+}
+
+.courses h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 42px;
+    padding-top: 40px;
+}
+
+.courses .row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.courses .row1 .engi {
+    margin-right: 32px;
+}
+
+.courses .row1 .engi img {
+    height: auto;
+}
+
+.courses .row1 .engi .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row1 .engi .text h2 {
+    font-size: 28px;
+}
+
+.courses .row1 .engi .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row1 .engi .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.courses .row1 .art {
+    margin-right: 32px;
+}
+
+.courses .row1 .art img {
+    height: auto;
+}
+
+.courses .row1 .art .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row1 .art .text h2 {
+    font-size: 28px;
+}
+
+.courses .row1 .art .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row1 .art .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.courses .row1 .design img {
+    height: auto;
+}
+
+.courses .row1 .design .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row1 .design .text h2 {
+    font-size: 28px;
+}
+
+.courses .row1 .design .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row1 .design .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.courses .row2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    padding-bottom: 30px;
+}
+
+.courses .row2 .Data {
+    margin-right: 32px;
+}
+
+.courses .row2 .Data img {
+    height: auto;
+}
+
+.courses .row2 .Data .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row2 .Data .text h2 {
+    font-size: 28px;
+}
+
+.courses .row2 .Data .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row2 .Data .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.courses .row2 .Business {
+    margin-right: 32px;
+}
+
+.courses .row2 .Business img {
+    height: auto;
+}
+
+.courses .row2 .Business .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row2 .Business .text h2 {
+    font-size: 28px;
+}
+
+.courses .row2 .Business .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row2 .Business .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.courses .row2 .Marketing img {
+    height: auto;
+}
+
+.courses .row2 .Marketing .text {
+    margin: 16px 0px 0px 16px;
+}
+
+.courses .row2 .Marketing .text h2 {
+    font-size: 28px;
+}
+
+.courses .row2 .Marketing .text span {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.courses .row2 .Marketing .text p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+/* video section */
+
+.video {
+    margin-top: 120px;
+    margin-left: 24px;
+    display: flex;
+}
+
+.video .sections .left {
+    width: 51.2%;
+}
+
+.video .sections .left video {
+    width: 100%;
+}
+
+.video .sections .left h1 {
+    font-size: 42px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.video .sections .left p {
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.video .sections {
+    display: flex;
+}
+
+.video .sections .right {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.video .sections .right .fisma {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.video .sections .right .fisma .text {
+    margin: auto;
+    margin-left: 24px;
+    width: 65%;
+}
+
+.video .sections .right .fisma img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.video .sections .right .fisma .text h2 {
+    font-size: 30px;
+}
+
+.video .sections .right .fisma .text p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.video .sections .right .new-york {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.video .sections .right .new-york .text {
+    margin: auto;
+    margin-left: 24px;
+    width: 65%;
+}
+
+.video .sections .right .new-york img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.video .sections .right .new-york .text h2 {
+    font-size: 30px;
+}
+
+.video .sections .right .new-york .text p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.video .sections .right .new-york .text span {
+    font-size: 20px;
+}
+
+/* footer */
+
+footer {
+    border-top: #cfcfcf solid 1px;
+}
+
+footer .text {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+footer .text .links {
+    display: flex;
+}
+
+footer .text .links ul {
+    margin-right: 15px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1730px) {
+    .courses .row1 {
+        text-align: center;
+        display: inline-block;
+    }
+    .courses {
+        text-align: center;
+    }
+    .courses .row2 {
+        text-align: center;
+        display: inline-block;
+    }
+    .courses .row2 .Data {
+        margin-bottom: 24px;
+    }
+    .courses .row2 .Marketing {
+        margin-top: 48px;
+    }
+    .courses .row1 .engi {
+        margin-bottom: 24px;
+    }
+    .courses .row1 .design {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .hero .content-hero .text {
+        margin: auto;
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    .hero {
+        display: block;
+        text-align: center;
+    }
+    .hero .content-hero {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 45px;
+    }
+    .hero .content-hero img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .hero .content-hero .text h1 {
+        font-size: 42px;
+        line-height: 52px;
+        margin-bottom: 25px;
+    }
+    .hero .content-hero .text {
+        margin-left: 0px;
+    }
+    .practicing .sections .left {
+        display: none;
+    }
+    .practicing .sections {
+        display: flex;
+        justify-content: center;
+    }
+    .practicing .sections .right {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 55%;
+    }
+    .practicing .sections .right .date {
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .practicing {
+        display: block;
+        margin-left: 0px;
+    }
+    .practicing .sections .right .date .text {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .practicing .sections .right .date img {
+        display: none;
+    }
+    .practicing .sections .right .date .responsive {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .our-campus img {
+        display: none;
+    }
+    .practicing .sections .right .our-campus .campus-mobile {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .our-campus {
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .practicing .sections .right .our-campus .text {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .practicing .sections .right .guest img {
+        display: none;
+    }
+    .practicing .sections .right .guest .guest-mobile {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .guest {
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .practicing .sections .right .guest .text {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .courses {
+        margin-top: 0px;
+    }
+    .courses h1 {
+        padding-top: 15px;
+    }
+    .video .sections .left h1 {
+        display: none;
+    }
+    .video .sections .left p {
+        display: none;
+    }
+    .video .sections .right {
+        display: none;
+    }
+    .video {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .video .sections .left {
+        width: 90%;
+        justify-content: center;
+    }
+    .video .sections {
+        justify-content: center;
+    }
+    footer .text {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        height: 45px;
+        padding-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    header .navigation .links {
+        display: none;
+    }
+    header {
+        height: 64px;
+    }
+    .hero .content-hero {
+        padding-top: 0px;
+    }
+    .hero .content-hero .text {
+        text-align: left;
+        margin-left: 32px;
+        margin-top: 16px;
+    }
+    .hero .content-hero .text h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .hero .content-hero .text p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .hero .content-hero img {
+        margin-bottom: 0px;
+    }
+    .hero .content-hero .text button {
+        text-decoration: none;
+        border: none;
+        height: 50px;
+        width: 90%;
+        font-size: 15px;
+        font-family: 'Poppins';
+        margin-top: 24px;
+        background-color: 1c1c1c;
+        color: white;
+        cursor: pointer;
+    }
+    .practicing .sections .right .date .responsive {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .date {
+        width: 100%;
+    }
+    .practicing .sections .right {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .practicing .sections .right .date .text h2 {
+        font-size: 27px;
+        text-align: left;
+    }
+    .practicing .sections .right .date .text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .practicing .sections .right .date .text span {
+        font-size: 18px;
+        text-align: left;
+        float: left;
+        margin-bottom: 64px;
+    }
+    .practicing .sections .right .our-campus .campus-mobile {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .our-campus {
+        width: 100%;
+    }
+    .practicing .sections .right .our-campus .text h2 {
+        font-size: 27px;
+        text-align: left;
+    }
+    .practicing .sections .right .our-campus .text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .practicing .sections .right .our-campus .text span {
+        font-size: 18px;
+        text-align: left;
+        float: left;
+        margin-bottom: 64px;
+    }
+    .practicing .sections .right .guest .guest-mobile {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .practicing .sections .right .guest {
+        width: 100%;
+    }
+    .practicing .sections .right .guest .text h2 {
+        font-size: 27px;
+        text-align: left;
+    }
+    .practicing .sections .right .guest .text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .practicing .sections .right .guest .text span {
+        font-size: 18px;
+        text-align: left;
+        float: left;
+        margin-bottom: 32px;
+    }
+    .courses {
+        margin-top: 0px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    .courses h1 {
+        text-align: center;
+        margin-bottom: 16px;
+        font-size: 37px;
+        padding-top: 32px;
+    }
+    .courses .row1 {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .courses .row1 .engi {
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .courses .row1 .engi img {
+        display: none;
+    }
+    .courses .row1 .engi .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row1 .engi .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+        margin-bottom: 8px;
+        margin-top: 0px;
+    }
+    .courses .row1 .engi .text span {
+        display: none;
+    }
+    .courses .row1 .engi .text p {
+        display: none;
+    }
+    .courses .row1 .art {
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .courses .row1 .art img {
+        display: none;
+    }
+    .courses .row1 .art .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row1 .art .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .courses .row1 .art .text span {
+        display: none;
+    }
+    .courses .row1 .art .text p {
+        display: none;
+    }
+    .courses .row1 .design {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .courses .row1 .design img {
+        display: none;
+    }
+    .courses .row1 .design .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row1 .design .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+    }
+    .courses .row1 .design .text span {
+        display: none;
+    }
+    .courses .row1 .design .text p {
+        display: none;
+    }
+    .courses .row2 {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .courses .row2 .Data {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .courses .row2 .Data img {
+        display: none;
+    }
+    .courses .row2 .Data .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row2 .Data .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+    }
+    .courses .row2 .Data .text span {
+        display: none;
+    }
+    .courses .row2 .Data .text p {
+        display: none;
+    }
+    .courses .row2 .Business {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .courses .row2 .Business img {
+        display: none;
+    }
+    .courses .row2 .Business .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row2 .Business .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+    }
+    .courses .row2 .Business .text span {
+        display: none;
+    }
+    .courses .row2 .Business .text p {
+        display: none;
+    }
+    .courses .row2 .Marketing {
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .courses .row2 .Marketing img {
+        display: none;
+    }
+    .courses .row2 .Marketing .text {
+        margin: 16px 0px 0px 16px;
+        margin-left: 0px;
+    }
+    .courses .row2 .Marketing .text h2 {
+        font-size: 20px;
+        text-align: left;
+        padding: 16px 16px 16px 16px;
+        background-color: rgb(216, 216, 216);
+    }
+    .courses .row2 .Marketing .text span {
+        display: none;
+    }
+    .courses .row2 .Marketing .text p {
+        display: none;
+    }
+    footer .text .links {
+        display: none;
+    }
+    footer .text span {
+        font-size: 14px;
+    }
+}
